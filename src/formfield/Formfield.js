@@ -4,11 +4,11 @@ import React from "react";
 // JSX version
 const Formfield = (props) => {
   return (
-    <div class="field">
-      <label class="label">{props.label}</label>
-      <div class="control">
+    <div className="field">
+      <label className="label">{props.label}</label>
+      <div className="control">
         <input
-          class="input"
+          className="label"
           type={props.type}
           placeholder={props.placeholder}
         />
